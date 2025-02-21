@@ -5,18 +5,18 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID On|| "MALVIN-XD~Bsg0AbaK#oW2Si_beaDK4DUE7j145RnZW_8ALRo7HpJdDGOWfBc8",
-// add your Session Id MALVIN-XD~Bsg0AbaK#oW2Si_beaDK4DUE7j145RnZW_8ALRo7HpJdDGOWfBc8
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~Bsg0AbaK#oW2Si_beaDK4DUE7j145RnZW_8ALRo7HpJdDGOWfBc8",
+// add your Session Id 
 PREFIX: process.env.PREFIX || "!",
 // add your prifix for bot
 
-BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ v2",
+BOT_NAME: process.env.BOT_NAME || "mright xᴅ v2",
 // add bot name here for menu
 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react   
 
-STICKER_NAME: process.env.STICKER_NAME || "MALVIN-XD",
+STICKER_NAME: process.env.STICKER_NAME || "Alexj-XD",
 // type sticker pack name  
 
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
